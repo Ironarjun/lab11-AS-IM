@@ -1,11 +1,4 @@
-git
-add
-calculator.py
-git
-commit - m
-"added GitHub link to line 1 of calculator.py"
-git
-push
+
 #https://github.com/Ironarjun/lab11-AS-IM.git
 #Arjun Suresh
 #Luliana Mashchenko
