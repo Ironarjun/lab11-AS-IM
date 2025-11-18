@@ -3,10 +3,11 @@
 #Luliana Mashchenko
 import math
 
+# Basic arithmetic
 def add(a, b):
     return a + b
 
-def subtract(a, b):
+def sub(a, b):
     return a - b
 
 def mul(a, b):
@@ -17,21 +18,28 @@ def div(a, b):
         raise ZeroDivisionError("Cannot divide by zero.")
     return a / b
 
-def logarithm(a, base):
-    if a <= 0 or base <= 0 or base == 1:
-        raise ValueError("Invalid input for logarithm.")
-    return math.log(a, base)
 
 def exp(a, b):
     return a ** b
 
-def hypotenuse(a, b):
-    return math.sqrt(a*a + b*b)
+def log(a, base):
+    if a <= 0:
+        raise ValueError("Logarithm input must be positive.")
+    if base <= 0 or base == 1:
+        raise ValueError("Logarithm base must be positive and not equal to 1.")
+    return math.log(a, base)
 
-def square_root(a):
-    if a < 0:
-        raise ValueError("Cannot compute square root of a negative number.")
-    return math.sqrt(a)
+
+def square_root(x):
+    if x < 0:
+        return None
+    return math.sqrt(x)
+
+def hypotenuse(a, b):
+    try:
+        return math.sqrt(a * a + b * b)
+    except TypeError:
+        return None
 
 
 
