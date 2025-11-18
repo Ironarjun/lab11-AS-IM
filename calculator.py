@@ -1,9 +1,11 @@
-"""
+git
+add
 calculator.py
-- Defines functions used to create a simple calculator
-
-One function per operation, in order.
-"""
+git
+commit - m
+"added GitHub link to line 1 of calculator.py"
+git
+push
 #https://github.com/Ironarjun/lab11-AS-IM.git
 #Arjun Suresh
 #Luliana Mashchenko
