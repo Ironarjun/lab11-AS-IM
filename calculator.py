@@ -4,7 +4,9 @@ calculator.py
 
 One function per operation, in order.
 """
-# First example
+#https://github.com/Ironarjun/lab11-AS-IM.git
+#Arjun Suresh
+#Luliana Mashchenko
 import math
 def add(a, b):
     return a + b
@@ -28,7 +30,7 @@ def log(a, b):
 def exp(a, b):
     return a**b
 
-# Help me please
+
 
 
 
