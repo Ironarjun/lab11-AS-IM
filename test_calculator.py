@@ -19,7 +19,7 @@ class TestCalculator(unittest.TestCase):
     def test_add(self):
         self.assertEqual(add(3, 5), 8)
 
-    def test_sub(self):
+    def test_subtract(self):
         self.assertEqual(sub(10, 4), 6)
 
     def test_mul(self):
@@ -30,7 +30,7 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ZeroDivisionError):
             div(5, 0)
 
-    def test_log(self):
+    def test_logarithm(self):
         self.assertAlmostEqual(log(8, 2), 3)
         with self.assertRaises(ValueError):
             log(-1, 2)
