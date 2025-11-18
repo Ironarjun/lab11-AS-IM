@@ -2,7 +2,7 @@
 #Arjun Suresh
 #Luliana Mashchenko
 import unittest
-from calculator import add, sub, mul, div, exp, log, square_root, hypotenuse
+from calculator import add, subtract, mul, div, exp, log, square_root, hypotenuse
 import math
 
 class TestCalculator(unittest.TestCase):
