@@ -7,7 +7,7 @@ import math
 def add(a, b):
     return a + b
 
-def sub(a, b):
+def subtract(a, b):
     return a - b
 
 def mul(a, b):
@@ -22,7 +22,7 @@ def div(a, b):
 def exp(a, b):
     return a ** b
 
-def log(a, base):
+def logarithm(a, base):
     if a <= 0:
         raise ValueError("Logarithm input must be positive.")
     if base <= 0 or base == 1:
