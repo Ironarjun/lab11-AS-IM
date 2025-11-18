@@ -1,6 +1,9 @@
 #https://github.com/Ironarjun/lab11-AS-IM.git
 #Arjun Suresh
 #Luliana Mashchenko
+import unittest
+import calculator
+import math
 
 class TestCalculator(unittest.TestCase):
 
