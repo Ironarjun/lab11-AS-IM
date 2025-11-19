@@ -20,7 +20,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(3, 5), 8)
 
     def test_subtract(self):
-        self.assertEqual(sub(10, 4), 6)
+        self.assertEqual(subtract(10, 4), 6)
 
     def test_mul(self):
         self.assertEqual(mul(3, 4), 12)
@@ -35,7 +35,7 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ValueError):
             log(-1, 2)
         with self.assertRaises(ValueError):
-            log(8, 1)
+            logarithm(8, 1)
 
     def test_exp(self):
         self.assertEqual(exp(2, 3), 8)
