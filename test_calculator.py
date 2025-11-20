@@ -1,6 +1,6 @@
 #https://github.com/Ironarjun/lab11-AS-IM.git
 #Arjun Suresh
-#Luliana Mashchenko
+#Iuliana Mashchenko
 import unittest
 from calculator import add, subtract, mul, div, exp, logarithm, square_root, hypotenuse
 import math
